@@ -23,3 +23,26 @@ Repositories (iq_sim https://github.com/Intelligent-Quads/iq_sim)
 Recommended: QGroundControl
 
 All can be easily installed by following the tutorials below: https://github.com/Intelligent-Quads/iq_tutorials and https://www.youtube.com/channel/UCuZy0c-uvSJglnZfQC0-uaQ
+
+# -Main files
+
+run_3D_simulation.py
+
+It is the main script that launches the simulation. (Created by Tom Antoine and Alex Martinez)
+
+Then the simulation is run by calling run_sim and the data can be visualized in plots or 3D animations. 
+
+# - Other files 
+
+multi_drone.launch
+Launch file that connects quadcopters with Gazebo. 
+
+multi-ardupilot.sh
+Launch file that connects with Arducopter.
+
+multi-apm.launch
+Launch file that connects with ROS.
+
+multi_drone.world
+Contains the world with the drones.
+
