@@ -50,3 +50,4 @@ multi_drone.world
 
 Contains the world with the drones.
 
+# - Launch the simulation 
