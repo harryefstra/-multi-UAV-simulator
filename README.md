@@ -54,9 +54,9 @@ Contains the world with the drones.
 For every launch 
 Open 1rst Terminal: 
 
-''' cd catkin_ws/src/
+``` cd catkin_ws/src/
 roslaunch iq_sim multi_drone.launch
-'''
+```
 Open Terminal 2
 
 cd
