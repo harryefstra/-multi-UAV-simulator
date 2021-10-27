@@ -7,7 +7,7 @@ Simulation_Python : it is used to do numerical simulations on the guidance algor
 Simulation_Gazebo : here, the python code for guidance and navigation is used as SITL, for a Gazebo/ROS/Ardupilot world (below) and in (https://github.com/alexMarFar/multi-UAV-simulator.git)
 
 # -Simulation_Gazebo
-Prerequisites:
+## Prerequisites:
 Python 3.8.5 was employed, so full compability with that or after version Basic Python libraries such as matplotlib, math, etc
 
 Install Ubuntu (version 20.04 employed, but 18.04 should also work)
@@ -56,3 +56,15 @@ Open 1rst Terminal:
 
 cd catkin_ws/src/
 roslaunch iq_sim multi_drone.launch
+Open Terminal 2
+
+cd
+./multi-ardupilot.sh
+Open Terminal 3
+
+cd catkin_ws/src/
+roslaunch iq_sim multi-apm.launch
+Open Terminal 4
+
+cd multi-UAV-simulator/Simulation_Gazebo/
+python run_3D_simulation.py
