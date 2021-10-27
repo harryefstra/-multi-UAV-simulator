@@ -51,7 +51,8 @@ multi_drone.world
 Contains the world with the drones.
 
 # - Launch the simulation 
-For every launch 
+## For every launch 
+
 Open 1rst Terminal: 
 
 ``` cd catkin_ws/src/
@@ -59,13 +60,15 @@ roslaunch iq_sim multi_drone.launch
 ```
 Open Terminal 2
 
-cd
-./multi-ardupilot.sh
+```cd
+./multi-ardupilot.sh```
+
 Open Terminal 3
 
-cd catkin_ws/src/
-roslaunch iq_sim multi-apm.launch
+```cd catkin_ws/src/
+roslaunch iq_sim multi-apm.launch```
+
 Open Terminal 4
 
-cd multi-UAV-simulator/Simulation_Gazebo/
-python run_3D_simulation.py
+```cd multi-UAV-simulator/Simulation_Gazebo/
+python run_3D_simulation.py```
