@@ -35,14 +35,18 @@ Then the simulation is run by calling run_sim and the data can be visualized in 
 # - Other files 
 
 multi_drone.launch
+
 Launch file that connects quadcopters with Gazebo. 
 
 multi-ardupilot.sh
+
 Launch file that connects with Arducopter.
 
 multi-apm.launch
+
 Launch file that connects with ROS.
 
 multi_drone.world
+
 Contains the world with the drones.
 
