@@ -4,6 +4,7 @@ GNC of a SWARM of UAVs in a SITL by Tom Antoine, Alex Martinez and Charalampos E
 This project is composed of two independant but similar repositories:
 
 Simulation_Python : it is used to do numerical simulations on the guidance algorithm fully on Python (https://github.com/tomAntoine/multi-UAV-simulator.git)
+
 Simulation_Gazebo : here, the python code for guidance and navigation is used as SITL, for a Gazebo/ROS/Ardupilot world (below) and in (https://github.com/alexMarFar/multi-UAV-simulator.git)
 
 # -Simulation_Gazebo
