@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Adapted by:
-Tom Antoine and Alejandra Martínez
+Alejandra Martínez, Charalampos Efstratiou and Tom Antoine
 part of GNC subteam, group 1, GDP AVDC 2020-2021
 email:
 tom.antoine@cranfield.ac.uk
